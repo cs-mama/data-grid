@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["rollup.config.js", "vite.config.ts", "src/**/*", "test/**/*", "website/**/*"]
+}
